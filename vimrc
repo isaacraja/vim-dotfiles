@@ -1,57 +1,6 @@
-" added by isaac
-if ($OS =~ "Windows")
-  " let g:netrw_scp_cmd="pscp.exe\ -q -batch"
-  " let g:netrw_scp_cmd="\c:\\amajain\\sw\\pscp.exe\ -q -batch"
-endif 
-set viminfo='20,\"50,:20,%,nd:/utils/Vim/.viminfo
-
-" set runtimepath+=d:/utils/vim/.vim/after
-" set runtimepath+=d:/utils/vim/.vim/colors
-" set runtimepath+=d:/utils/vim/.vim/autoload
-" set runtimepath+=d:/utils/vim/.vim/ftplugin
-" set runtimepath+=d:/utils/vim/.vim/plugin
-" set runtimepath+=d:/utils/vim/.vim/syntax
-" set runtimepath+=d:/utils/vim/.vim/xdebugger
-
-set runtimepath+=d:/utils/vim/.vim/
-set runtimepath+=d:/utils/vim/.vim/autoload
-set runtimepath+=d:/utils/vim/.vim/ftdetect
-set runtimepath+=d:/utils/vim/.vim/ftplugin
-set runtimepath+=d:/utils/vim/.vim/bundle/abolish
-set runtimepath+=d:/utils/vim/.vim/bundle/bufexplorer
-set runtimepath+=d:/utils/vim/.vim/bundle/color-sampler-pack
-set runtimepath+=d:/utils/vim/.vim/bundle/command-t
-set runtimepath+=d:/utils/vim/.vim/bundle/css-hilight
-set runtimepath+=d:/utils/vim/.vim/bundle/delimitmate
-set runtimepath+=d:/utils/vim/.vim/bundle/easy-grep
-set runtimepath+=d:/utils/vim/.vim/bundle/fugitive
-set runtimepath+=d:/utils/vim/.vim/bundle/haml
-set runtimepath+=d:/utils/vim/.vim/bundle/jquery
-set runtimepath+=d:/utils/vim/.vim/bundle/markdown
-set runtimepath+=d:/utils/vim/.vim/bundle/nerdcommenter
-set runtimepath+=d:/utils/vim/.vim/bundle/nerdtree
-set runtimepath+=d:/utils/vim/.vim/bundle/pastie
-"set runtimepath+=d:/utils/vim/.vim/bundle/php-syntax
-"set runtimepath+=d:/utils/vim/.vim/bundle/python-syntax
-set runtimepath+=d:/utils/vim/.vim/bundle/ragtag
-set runtimepath+=d:/utils/vim/.vim/bundle/rails
-set runtimepath+=d:/utils/vim/.vim/bundle/repeat
-set runtimepath+=d:/utils/vim/.vim/bundle/snipmate
-set runtimepath+=d:/utils/vim/.vim/bundle/speed-dating
-set runtimepath+=d:/utils/vim/.vim/bundle/supertab
-set runtimepath+=d:/utils/vim/.vim/bundle/surround
-set runtimepath+=d:/utils/vim/.vim/bundle/syntastic
-set runtimepath+=d:/utils/vim/.vim/bundle/taglist
-set runtimepath+=d:/utils/vim/.vim/bundle/vim-varia
-set runtimepath+=d:/utils/vim/.vim/bundle/vivid-chalk
-set runtimepath+=d:/utils/vim/.vim/bundle/fuzzy-finder
-set runtimepath+=d:/utils/vim/.vim/bundle/project
-set runtimepath+=d:/utils/vim/.vim/bundle/vcs
-set runtimepath+=d:/utils/vim/.vim/bundle/php-doc
-set runtimepath+=d:/utils/vim/.vim/bundle/php-align-comment
-set runtimepath+=d:/utils/vim/.vim/bundle/yankring
-"set runtimepath+=d:/utils/vim/.vim/bundle/easytags
-
+"Start Customization 
+set t_Co=256
+set viminfo='20,\"50,:20,%,n~/.viminfo
 
 if has('gui_running')
   "set guifont=Droid\ Sans\ Mono:h10
@@ -87,7 +36,7 @@ inoremap jj <Esc>
 
 " Use F10 to toggle 'paste' mode
 set pastetoggle=<F10>
-set tags=d:/xampp/htdocs/merchantcenter2/trimbotagsvim
+set tags=~/vim
 "let g:ctags_command = "ctags -R ."
 let g:ctags_command = "ctags -f trimbotagsvim -h \".php\" -R --exclude=\"\.svn\" --totals=yes --tag-relative=yes --PHP-kinds=+cf --regex-PHP='/abstract class ([^ ]*)/\1/c/' --regex-PHP='/interface ([^ ]*)/\1/c/' --regex-PHP='/(public |static |abstract |protected |private )+function ([^ (]*)/\2/f/'" 
 
@@ -125,7 +74,8 @@ set smartcase
 "au BufWinEnter *.php,*.py let w:m1=matchadd('Search', '\%<101v.\%>100v', -1)
 "au BufWinEnter *.php,*.py let w:m2=matchadd('ErrorMsg', '\%>100v.\+', -1)
 
-let g:yankring_history_dir = 'd:/utils/Vim/'
+"Windows specific
+"let g:yankring_history_dir = 'd:/utils/Vim/'
 
 " End my customisations -- isaac
 
