@@ -45,16 +45,16 @@
 	url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = http://github.com/ervandew/supertab.git
+	url = git://github.com/ervandew/supertab.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = http://github.com/scrooloose/syntastic.git
+	url = git://github.com/scrooloose/syntastic.git
 [submodule "bundle/command-t"]
 	path = bundle/command-t
-	url = http://github.com/wincent/Command-T.git
+	url = git://github.com/wincent/Command-T.git
 [submodule "bundle/php-syntax"]
 	path = bundle/php-syntax
-	url = http://github.com/paulyg/Vim-PHP-Stuff.git
+	url = git://github.com/paulyg/Vim-PHP-Stuff.git
 [submodule "bundle/easy-grep"]
 	path = bundle/easy-grep
 	url = http://github.com/gaving/vim-easygrep.git
