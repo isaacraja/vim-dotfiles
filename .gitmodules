@@ -57,10 +57,10 @@
 	url = git://github.com/paulyg/Vim-PHP-Stuff.git
 [submodule "bundle/easy-grep"]
 	path = bundle/easy-grep
-	url = http://github.com/gaving/vim-easygrep.git
+	url = git://github.com/gaving/vim-easygrep.git
 [submodule "bundle/vim-varia"]
 	path = bundle/vim-varia
-	url = http://github.com/telemachus/vim-varia.git
+	url = git://github.com/telemachus/vim-varia.git
 [submodule "bundle/speeddating"]
 	path = bundle/speeddating
 	url = git://github.com/tpope/vim-speeddating.git
