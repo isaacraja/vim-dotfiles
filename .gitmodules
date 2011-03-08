@@ -24,13 +24,13 @@
 	url = http://github.com/tpope/vim-speeddating.git
 [submodule "bundle/repeat"]
 	path = bundle/repeat
-	url = http://github.com/tpope/vim-repeat.git
+	url = git://github.com/tpope/vim-repeat.git
 [submodule "bundle/pastie"]
 	path = bundle/pastie
-	url = http://github.com/tpope/vim-pastie.git
+	url = git://github.com/tpope/vim-pastie.git
 [submodule "bundle/abolish"]
 	path = bundle/abolish
-	url = http://github.com/tpope/vim-abolish.git
+	url = git://github.com/tpope/vim-abolish.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -39,10 +39,10 @@
 	url = git://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/haml"]
 	path = bundle/haml
-	url = http://github.com/tpope/vim-haml.git
+	url = git://github.com/tpope/vim-haml.git
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
-	url = http://github.com/msanders/snipmate.vim.git
+	url = git://github.com/msanders/snipmate.vim.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = http://github.com/ervandew/supertab.git
